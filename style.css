@@ -55,7 +55,79 @@ body {
     align-items: center;
 }
 
-.tombol {
+.number {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.all-clear {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.decimal {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.percentage {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.del {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.equal-sign {
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color: rgb(173, 122, 113);
+}
+
+.operator {
     background-color: #f1f3f5;
     box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
     border: none;
@@ -69,6 +141,18 @@ body {
 
 .tombol:hover {
     transform: scale(0.9);
+}
+
+.tombol-kanan {
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(222, 196, 216);
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0, 0.26), 5px 5px 12px #e6e3e4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .tombol-kanan {
