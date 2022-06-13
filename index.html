@@ -14,7 +14,7 @@
 
     <main class="card">
         <form class="display" name="form">
-            <input type="text" name="text" id="screen" class="calculator-screen" value="0" disabled>
+            <input type="text" name="text" id="screen" class="calculator-screen" value="0" placeholder="0" disabled>
         </form>
         <section class="button">
             <div class="tombol-kiri">
@@ -30,13 +30,7 @@
                 <button class="number" value="3">3</button>
                 <button class="number" value="2">2</button>
                 <button class="number" value="1">1</button>
-                <!-- <script language="JavaScript">
-                    for (let i = 9; i >= 1; i--) {
-                        document.write(
-                            `<button class=number value=display(${i})>` + i + `</button>`
-                        )
-                    }
-                </script> -->
+
                 <button class="decimal" value=".">.</button>
                 <button class="number" value="0">0</button>
                 <button class="number" value="00">00</button>
@@ -49,24 +43,7 @@
                 <button class="equal-sign">=</button>
             </div>
         </section>
-        <!-- <script language="JavaScript">
-            let result = document.getElementById('screen')
-            const display = (a) => {
-                if (a == 'clear') {
-                    result.value = ''
-                } else if (a == 'del') {
-                    result.value = result.value.slice(0, -1)
-                } else if (a == 'action') {
-                    try {
-                        result.value = eval(result.value)
-                    } catch (error) {
-                        alert('error')
-                    }
-                } else {
-                    result.value += a
-                }
-            }
-        </script> -->
+
     </main>
 </body>
 <script type="text/javascript" src="script.js"></script>

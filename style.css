@@ -139,7 +139,31 @@ body {
     color: rgb(173, 122, 113);
 }
 
-.tombol:hover {
+.number:hover {
+    transform: scale(0.9);
+}
+
+.operator:hover {
+    transform: scale(0.9);
+}
+
+.equal-sign:hover {
+    transform: scale(0.9);
+}
+
+.del:hover {
+    transform: scale(0.9);
+}
+
+.percentage:hover {
+    transform: scale(0.9);
+}
+
+.decimal:hover {
+    transform: scale(0.9);
+}
+
+.all-clear:hover {
     transform: scale(0.9);
 }
 
